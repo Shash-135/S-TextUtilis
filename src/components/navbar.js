@@ -17,10 +17,7 @@ export default function Navbar(props){
             <li className="nav-item">
               <Link className={`nav-link active default`}  aria-current="page" to="/TextForm">Text Utilities</Link>
             </li>
-            <li className="nav-item">
-              <Link className={`nav-link active`}  aria-current="page" to="/TextForm">Image Utilities</Link>
-            </li>
-            <li className="nav-item">
+            <li>
               <Link className={`nav-link`}  to="/About">About us</Link>
             </li>
            </ul>

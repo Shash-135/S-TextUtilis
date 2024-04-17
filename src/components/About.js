@@ -14,8 +14,7 @@ export default function About(props) {
           </h2>
           <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample" >
             <div className="accordion-body" >
-              <strong>The Application has two major workings : </strong> 1. The Text Utilities option is used to perform operations on the text. 2. The Image Utilities option is used to perform operations on Image.
-            </div>
+              <strong>The Application has two major workings : </strong> 1. The Text Utilities option is used to perform operations on the text.            </div>
           </div>
         </div>
         <div className="accordion-item" style={{backgroundColor : props.mode==='light'?'white':'#545d65',color : props.mode==='light'?'black':'white'}}>
@@ -38,7 +37,7 @@ export default function About(props) {
         </h2>
         <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample" >
           <div className="accordion-body" >
-            <strong>Mobile No :</strong> 8668902342 <br/> <strong>Instagram :</strong> 
+            <strong>Mobile No :</strong> 8668902342 
           </div>
         </div>
       </div>

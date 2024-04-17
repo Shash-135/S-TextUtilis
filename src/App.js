@@ -32,6 +32,7 @@ function App() {
     <div className='container'>
       <Routes>
         <Route path='/TextForm' element={<TextForm heading="Enter the text to analyse below" mode={Mode}/>}></Route>
+     
         <Route path='/About' element={<About mode={Mode}/>}></Route>
       </Routes>
     </div>
